@@ -1,16 +1,16 @@
 specVersion: 0.0.2
-description: KandySwap is a decentralized protocol for automated token exchange on Binance Smart Chain.
+description: KandySwap is a decentralized protocol for automated token exchange on Kucoin Community Chain.
 repository: https://github.com/KandySwap/kandy-subgraph
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: bsc
+    network: kcc
     source:
       address: '0xA780FcBFF7c5232FDbEF4fc67313bEcFfdf64172'
       abi: Factory
-      startBlock: 4855900
+      startBlock: 764200
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -34,7 +34,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pair
-    network: bsc
+    network: kcc
     source:
       abi: Pair
     mapping:
