@@ -36,12 +36,10 @@ export function getEthPriceInUSD(): BigDecimal {
   } else if (usdcPair !== null) {
     return usdcPair.token1Price
   }
-  //   else {
-  //   return ZERO_BD
-  // }
-  else {
-    return ONE_BD
+    else {
+    return ZERO_BD
   }
+ 
 }
 
 // token where amounts should contribute to tracked volume and liquidity
