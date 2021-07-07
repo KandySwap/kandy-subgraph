@@ -49,7 +49,7 @@ let WHITELIST: string[] = [
   '0x4446fc4eb47f2f6586f9faab68b3498f86c07521', // WKCS
   '0x0039f574ee5cc39bdd162e9a88e3eb1f111baf48', // USDT
   '0x980a5afef3d17ad98635f6c5aebcbaeded3c3430', // USDC
-  '0x8c8a54381b1fc988978d89978dd3b198f4ca54c0', // Kandy
+  '0x1aAAF8D0588A14f54eD3624f96205989Df091181', // Kandy
 ]
 
 // minimum liquidity for price to get tracked
