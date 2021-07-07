@@ -35,8 +35,12 @@ export function getEthPriceInUSD(): BigDecimal {
     return usdtPair.token0Price
   } else if (usdcPair !== null) {
     return usdcPair.token1Price
-  }  else {
-    return ZERO_BD
+  }
+  //   else {
+  //   return ZERO_BD
+  // }
+  else {
+    return ONE_BD
   }
 }
 
